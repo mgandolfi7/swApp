@@ -1,0 +1,30 @@
+{
+  "name": "swapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgandolfi7/swApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgandolfi7/swApp/issues"
+  },
+  "homepage": "https://github.com/mgandolfi7/swApp#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongodb": "^4.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
